@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Postman</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cant_connect_host">Cannot resolve hostname. Check the url or the connection</string>
+    <string name="url_hint">URL</string>
+    <string name="method_label">Method</string>
+    <string name="constant">constant</string>
+    <string name="header_title">Header</string>
+    <string name="header_error">Please fill fields to add Header</string>
+    <string name="table_add">Add</string>
+    <string name="key">Key</string>
+    <string name="value">Value</string>
+    <string name="post_body">body</string>
+    <string name="body_form_error">Please fill fields to add Body</string>
+    <string name="body_header">Body</string>
+    <string name="url_label">URL</string>
+    <string name="code_label">Code</string>
+    <string name="headers_heading">Headers</string>
+    <string name="response_header">Response</string>
+    <string name="no_response">No respone. Send request to see response</string>
+    <string name="send_btn_text">Send</string>
+
+    <string-array name="http">
+        <item>http://</item>
+        <item>https://</item>
+    </string-array>
+    <string-array name="method">
+        <item>GET</item>
+        <item>POST</item>
+    </string-array>
+    <string-array name="body_type">
+        <item>RAW</item>
+        <item>FORM</item>
+    </string-array>
+
+    <string-array name="raw_type">
+        <item>JSON</item>
+        <item>XML</item>
+    </string-array>
+</resources>
